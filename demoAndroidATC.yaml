@@ -1,0 +1,8 @@
+appId: io.appium.android.apis
+---
+- launchApp:
+    clearState: true
+- tapOn: "App"
+- tapOn: "Activity"
+- tapOn: "Hello World"
+- assertVisible: "Hello, World!"
